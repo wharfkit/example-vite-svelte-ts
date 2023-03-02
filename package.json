@@ -17,5 +17,10 @@
     "tslib": "^2.5.0",
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "@wharfkit/session": "^0.3.0-ui-16.1",
+    "@wharfkit/wallet-plugin-cloudwallet": "^0.3.0-ui-16",
+    "@wharfkit/web-ui-renderer": "^0.3.0-ui-16"
   }
 }

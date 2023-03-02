@@ -1,6 +1,7 @@
 <script lang="ts">
     import svelteLogo from './assets/svelte.svg'
-    import Counter from './lib/Counter.svelte'
+    import wharfLogo from './assets/wharf.svg'
+    import Login from './lib/Login.svelte'
 </script>
 
 <main>
@@ -11,11 +12,14 @@
         <a href="https://svelte.dev" target="_blank" rel="noreferrer">
             <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
         </a>
+        <a href="https://wharfkit.com" target="_blank" rel="noreferrer">
+            <img src={wharfLogo} class="logo wharf" alt="Wharf Logo" />
+        </a>
     </div>
-    <h1>Vite + Svelte</h1>
+    <h1>Vite + Svelte + Wharf</h1>
 
     <div class="card">
-        <Counter />
+        <Login />
     </div>
 
     <p>
@@ -27,7 +31,7 @@
     </p>
 
     <p class="read-the-docs">
-        Click on the Vite and Svelte logos to learn more
+        Click on the Vite, Svelte, and Wharf logos to learn more
     </p>
 </main>
 
