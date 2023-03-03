@@ -48,6 +48,9 @@
     .logo.svelte:hover {
         filter: drop-shadow(0 0 2em #ff3e00aa);
     }
+    .logo.wharf:hover {
+        filter: drop-shadow(0 0 2em #1cb095);
+    }
     .read-the-docs {
         color: #888;
     }
