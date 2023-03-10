@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@wharfkit/session": "^0.3.0-ui-16.1",
+    "@wharfkit/wallet-plugin-anchor": "^0.3.1",
     "@wharfkit/wallet-plugin-cloudwallet": "^0.3.0-ui-16",
     "@wharfkit/web-ui-renderer": "^0.3.0-ui-16"
   }
