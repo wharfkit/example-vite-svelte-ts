@@ -211,7 +211,7 @@
   dependencies:
     "@types/node" "*"
 
-"@wharfkit/session@^0.3.0-ui-16.1":
+"@wharfkit/session@^0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@wharfkit/session/-/session-0.3.2.tgz#98e946d028434a37b5038da995c12eed72c1f3e2"
   integrity sha512-rxZKL0Vqm9L20l4C/0wwdmoiPlw9Xd0TQNLax7ZcJB3qsZ4nK+GRlynLfcoM3WppGCL/I5uQ8g/2csFEl0U0pg==
@@ -221,26 +221,27 @@
     pako "^2.0.4"
     tslib "^2.1.0"
 
-"@wharfkit/wallet-plugin-anchor@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@wharfkit/wallet-plugin-anchor/-/wallet-plugin-anchor-0.3.1.tgz#63e61c88d902b42e403fa652ac29a57241bab1c8"
-  integrity sha512-qw8C1k85plgu2UtXFejwaF8n+Fa20kbKv7Tlu3bN4BP0C32k4G1WmE37wwqmKOOiO6Ty4OCeFq/BPzPFvyYvjg==
+"@wharfkit/wallet-plugin-anchor@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@wharfkit/wallet-plugin-anchor/-/wallet-plugin-anchor-0.3.4.tgz#8c8c39dcb67f1c46f2a330df12f45f70199cf924"
+  integrity sha512-lWX0NdQccgKwWv0HSQUv0RNhOIEtydqxK3XN+Yal466Z4PZutetYQ41FKTl792Nr0e3UXqf6SNT2ky8xIO+Y1w==
   dependencies:
     "@greymass/buoy" "^1.0.3"
     "@greymass/miniaes" "^1.0.0"
     isomorphic-ws "^5.0.0"
+    ws "^8.13.0"
 
-"@wharfkit/wallet-plugin-cloudwallet@^0.3.0-ui-16":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@wharfkit/wallet-plugin-cloudwallet/-/wallet-plugin-cloudwallet-0.3.0.tgz#4953bd08448748dcb225a60d502709ee824651ce"
-  integrity sha512-eyMcqYFz+CL54MxW1SftTn13qy/S4nDmzXbGv+UWokovaO/p4qzGLNK2b5HnzJuBvDGhte/ZnxEnkQKklzfIVg==
+"@wharfkit/wallet-plugin-cloudwallet@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@wharfkit/wallet-plugin-cloudwallet/-/wallet-plugin-cloudwallet-0.3.2.tgz#7fc3e8ad062687f4f483691a3dbe6e076b7f0155"
+  integrity sha512-sc4Sg02hCNjVclBIiZ7f/zFNigpk52AZB+EiOQfrwfqwi+Uqa5ZT2EvE7ESWl8FVTVi0kTPs+qdlS4hY0Nq5Gg==
   dependencies:
     tslib "^2.1.0"
 
-"@wharfkit/web-ui-renderer@^0.3.0-ui-16":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@wharfkit/web-ui-renderer/-/web-ui-renderer-0.3.2.tgz#2846a0be522a86e9f8085cbd7b3748572b75de46"
-  integrity sha512-f10AL2JfFzk1F3zGFccAtMY+V/4t3TAehIRg/V9tOoLpLrf29ngCTGid82Cw/ZZFHSpP71wf82UTTcKxVTnHtA==
+"@wharfkit/web-ui-renderer@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@wharfkit/web-ui-renderer/-/web-ui-renderer-0.3.7.tgz#7f060334f8dcf93df80e71f56c5bd29f46b8aac4"
+  integrity sha512-VXJcJGMD/+FUu34QRuEH6tK+OjnnKkMhm9IxARuCjt/cXVzfLkpRw5AjAM1Aj6cPvRoWd2Z8xvm7P5LTVMXbOg==
 
 anymatch@~3.1.2:
   version "3.1.3"
@@ -845,3 +846,8 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
+
+ws@^8.13.0:
+  version "8.13.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
+  integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
