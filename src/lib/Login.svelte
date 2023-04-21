@@ -2,11 +2,11 @@
     import { writable } from 'svelte/store'
     import { onMount } from 'svelte/internal'
     import { Session, SessionKit } from '@wharfkit/session'
-    import { WebUIRenderer } from '@wharfkit/web-ui-renderer'
+    import { WebRenderer } from '@wharfkit/web-renderer'
     import { WalletPluginAnchor } from '@wharfkit/wallet-plugin-anchor'
     import { WalletPluginCloudWallet } from '@wharfkit/wallet-plugin-cloudwallet'
 
-    const ui = new WebUIRenderer()
+    const ui = new WebRenderer()
     const session = writable<Session | null>(null)
 
     const sessionKit = new SessionKit({
