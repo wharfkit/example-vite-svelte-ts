@@ -19,9 +19,8 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
-    "@wharfkit/session": "^0.5.0",
-    "@wharfkit/wallet-plugin-anchor": "^0.5.1",
-    "@wharfkit/wallet-plugin-cloudwallet": "^0.5.1",
-    "@wharfkit/web-renderer": "^0.5.3"
+    "@wharfkit/session": "^1.0.0",
+    "@wharfkit/wallet-plugin-anchor": "^1.0.0",
+    "@wharfkit/web-renderer": "^1.0.0"
   }
 }
