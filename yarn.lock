@@ -258,10 +258,10 @@
     isomorphic-ws "^5.0.0"
     ws "^8.13.0"
 
-"@wharfkit/web-renderer@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@wharfkit/web-renderer/-/web-renderer-1.0.0.tgz#960411c525c04875cfc1d32247f63f00fbb72454"
-  integrity sha512-Lbb/0LheSngxtsfrWmtp06EIy5y0ecLl/XB5MsiVvKlmnfGuwtD6ABBwgfhpv9wY2jSQXz5qXBT0r+OdQwi4iQ==
+"@wharfkit/web-renderer@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@wharfkit/web-renderer/-/web-renderer-1.0.2.tgz#e77c93d486f0f17be68a708f69ee6c19d7d3a1eb"
+  integrity sha512-nXOGwazEWHevJsl34NCApLBBSgGgmuD1ONl0cZTp03yPvSdBNd/3Llh0T3EssNUBjK44XT187gHYMEfKtMlJkQ==
 
 anymatch@~3.1.2:
   version "3.1.3"

@@ -21,6 +21,6 @@
   "dependencies": {
     "@wharfkit/session": "^1.0.0",
     "@wharfkit/wallet-plugin-anchor": "^1.0.0",
-    "@wharfkit/web-renderer": "^1.0.0"
+    "@wharfkit/web-renderer": "^1.0.2"
   }
 }
