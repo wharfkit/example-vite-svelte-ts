@@ -12,15 +12,25 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@tsconfig/svelte": "^3.0.0",
+    "rollup-plugin-visualizer": "^5.9.2",
     "svelte": "^3.55.1",
     "svelte-check": "^2.10.3",
     "tslib": "^2.5.0",
     "typescript": "^4.9.3",
-    "vite": "^4.1.0"
+    "vite": "^4.1.0",
+    "vite-plugin-node-polyfills": "^0.14.0"
+  },
+  "resolutions": {
+    "@wharfkit/antelope": "0.9.1"
   },
   "dependencies": {
+    "@wharfkit/antelope": "^0.9.1",
+    "@wharfkit/contract": "^0.4.3",
     "@wharfkit/session": "^1.0.0",
-    "@wharfkit/wallet-plugin-anchor": "^1.0.0",
-    "@wharfkit/web-renderer": "^1.0.2"
+    "@wharfkit/transact-plugin-resource-provider": "^1.0.1",
+    "@wharfkit/wallet-plugin-anchor": "^1.0.3",
+    "@wharfkit/wallet-plugin-cloudwallet": "^1.0.0",
+    "@wharfkit/wallet-plugin-wombat": "^1.0.2",
+    "@wharfkit/web-renderer": "^1.0.3"
   }
 }
