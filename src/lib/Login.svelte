@@ -56,6 +56,7 @@
 </script>
 
 {#if $session}
+    <p>Logged in as {$session.actor}</p>
     <button class="primary" on:click={transact}>
         Test Transaction (No Broadcast)
     </button>
